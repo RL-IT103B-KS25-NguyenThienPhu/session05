@@ -5,7 +5,7 @@ const rawPatientName = "  nguyễn văn an  ";
 const requiredPrefix = "MED-";
 const departmentStart = 4;
 const departmentEnd = 7;
-
+const numberStart = 8;
 const normalizedCode = rawAppointmentCode.trim().toUpperCase();
 const isCodeValid = normalizedCode.startsWith(requiredPrefix);
 const departmentCode = normalizedCode.slice(departmentStart, departmentEnd);
