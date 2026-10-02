@@ -1,0 +1,1 @@
+<!-- Lỗi chính là startsWith("MED-")trên chuỗi chữ thường sau trim nên in ra false, phải toUpperCase() trước. Dòng slice(8, 12) gán  vị trí kết thúc nên số thứ tự dài hơn 4 chữ số sẽ bị cắt, sửa thành slice(8). Biến cleanPatientName đặt tên sai, đổi thành rawPatientName  -->
